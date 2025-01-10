@@ -1,0 +1,151 @@
+.contact-page {
+    background-color: #ffffff;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+}
+
+.contact-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 2rem 2rem;
+    /* background-image: url('image.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.contact-content {
+    background: #f8f8f8;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.contact-content h1 {
+    color: #C6A355;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    align-items: flex-start;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1A1A1A;
+    padding: 1rem 2rem;
+    z-index: 1000;
+    height: 8vh;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #C6A355;
+}
+
+.nav-links a.active {
+    color: #C6A355;
+}
+
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: left;
+    
+}
+
+.contact-item i {
+    color: #C6A355;
+    font-size: 2rem;
+}
+
+.contact-item h2,
+.contact-item p,
+.contact-item a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.contact-item a:hover {
+    color: #C6A355;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+}
+
+.social-links a {
+    color: #333;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #C6A355;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 4rem 1rem 1rem;
+    }
+
+    .contact-content {
+        padding: 2rem;
+    }
+
+    .contact-content h1 {
+        font-size: 2rem;
+    }
+
+    .contact-item h2,
+    .contact-item p,
+    .contact-item a {
+        font-size: 1rem;
+    }
+}

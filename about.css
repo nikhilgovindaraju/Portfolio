@@ -1,0 +1,157 @@
+/* Additional CSS for about page */
+/* .about-page {
+    background-color: #ffffff;
+    color: #333;
+} */
+
+.about-page section {
+    max-width: 100%;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.about-page h2 {
+    color: #C6A355;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+
+.education-card, .experience-card, .skill-card {
+    background: #f8f8f8;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.edu-header, .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1rem;
+}
+
+.edu-header h3, .exp-header h3 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.gpa {
+    color: #C6A355;
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+.coursework {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.skill-card h3 {
+    color: #C6A355;
+    margin-bottom: 1rem;
+}
+
+.certifications ul {
+    list-style: none;
+    padding: 0;
+}
+
+.certifications li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.certificationsList{
+    color: #C6A355;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .edu-header, .exp-header {
+        flex-direction: column;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-page section {
+        padding: 1rem;
+    }
+}
+/* Navigation */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1A1A1A;
+    padding: 1rem 2rem;
+    z-index: 1000;
+    height: 8vh;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #C6A355;
+}
+
+.nav-links a.active {
+    color: #C6A355;
+}
+
+footer {
+    background-color: black;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.social-links a {
+    color: whitesmoke;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #C6A355;
+}
