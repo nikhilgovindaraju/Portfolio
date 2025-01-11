@@ -3,7 +3,10 @@
     background-color: #ffffff;
     color: #333;
 } */
-
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
 .about-page section {
     max-width: 100%;
     margin: 2rem auto;
