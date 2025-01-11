@@ -13,7 +13,7 @@
 
 .nav-links {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     align-items: center;
     gap: 2rem;
     max-width: 1200px;
@@ -57,6 +57,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 8vh 2rem 2rem;
+    margin-top: 3rem;
 }
 
 .contact-content {

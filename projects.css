@@ -17,7 +17,7 @@ body {
 
 .nav-links {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     align-items: center;
     gap: 2rem;
     max-width: 1200px;
@@ -54,9 +54,9 @@ body {
 }
 
 .projects-intro h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .projects-grid {
@@ -85,7 +85,7 @@ body {
 }
 
 .project-content h2 {
-    color: #C6A355;
+    color: black;
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
@@ -98,7 +98,7 @@ body {
 }
 
 .project-tags span {
-    background: #1a1a1a;
+    background: #C6A355;
     color: #ffffff;
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
