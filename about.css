@@ -11,13 +11,14 @@ body {
     max-width: 100%;
     margin: 2rem auto;
     padding: 2rem;
+    margin-bottom: -6rem;
 }
 
 .about-page h2 {
     color: #C6A355;
     font-size: 2rem;
     margin-bottom: 3rem;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 3rem;
 }
 
@@ -26,7 +27,7 @@ body {
     padding: 2rem;
     margin-bottom: 2rem;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.5);
 }
 
 .edu-header, .exp-header {
@@ -52,6 +53,9 @@ body {
     font-size: 0.9rem;
     line-height: 1.6;
 }
+.skills-section h2{
+    font-weight: 500;
+}
 
 .skills-grid {
     display: grid;
@@ -64,7 +68,9 @@ body {
     color: #C6A355;
     margin-bottom: 1rem;
 }
-
+.skills-section {
+    margin-bottom: 2rem;
+}
 .certifications ul {
     list-style: none;
     padding: 0;
@@ -157,4 +163,12 @@ footer {
 
 .social-links a:hover {
     color: #C6A355;
+}
+
+#certificates{
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
 }
