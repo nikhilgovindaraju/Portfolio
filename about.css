@@ -71,12 +71,15 @@ body {
 .skills-section {
     margin-bottom: 2rem;
 }
-.certifications ul {
+.Certifications {
+    margin-bottom: 4rem;
+}
+.Certifications ul {
     list-style: none;
     padding: 0;
 }
 
-.certifications li {
+.Certifications li {
     padding: 0.5rem 0;
     border-bottom: 1px solid #eee;
 }
